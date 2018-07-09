@@ -1,0 +1,37 @@
+﻿section {
+    text-align: center;
+}
+
+#login {
+    background-color: white;
+    padding: 10px;
+    text-align: left;
+    border: #e2e2e2 3px groove;
+    border-radius: 5px;
+}
+    #login .wraper-header{
+        margin:20px 0 50px 0;
+        text-align: center;
+    }
+    #login input[type='text']{
+        margin-bottom: 50px;
+    }
+    #login input[type='password'] {
+        margin-bottom: 50px;
+    }
+
+    #login button{
+        width: 100%;
+        background-color:aquamarine;
+    }
+    #login div[class='checkbox'] {
+        margin-bottom: 50px;
+        margin-left:6px;
+        font-size: 1.6rem;
+    }
+    #login .error-message{
+        color: red;
+        font-size: 2rem;
+        font-weight: bold;
+        margin-top: 20px;
+    }

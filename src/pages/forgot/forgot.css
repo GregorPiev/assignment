@@ -1,0 +1,38 @@
+﻿section {
+    text-align: center;
+}
+
+#forgot {
+    background-color: white;
+    padding: 10px;
+    text-align: left;
+    border: #e2e2e2 3px groove;
+    border-radius: 5px;
+}
+
+    #forgot .wraper-header {
+        margin: 20px 0 50px 0;
+        text-align: center;
+    }
+
+    #forgot input[type='text'] {
+        margin-bottom: 50px;
+    }
+
+    #forgot button {
+        width: 100%;
+        background-color: aquamarine;
+    }
+    #forgot article {
+        width: 100%;
+        margin-bottom: 50px;
+        font-size: 1.6rem;
+        text-align: justify;
+    }
+    #forgot .error-message {
+        color: red;
+        font-size: 2rem;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+        
